@@ -19,16 +19,16 @@ int main()
 
     vector<pair<int, int>> time;
 
-    cin >> N;
+    cin >> N;           
     time.reserve(N);    // 사용할 벡터의 크기만큼 미리 메모리 할당.
 
     for (int i = 0; i < N; i++)
     {
         cin >> startTime >> endTime;
-        time.push_back(make_pair(startTime, endTime));
+        time.push_back(make_pair(startTime, endTime));  // 회의 시간 입력
     }
 
-    sort(time.begin(), time.end(), compare);
+    sort(time.begin(), time.end(), compare);    // compare 함수를 기준으로 정렬
 
     vector<pair<int, int>>::iterator iter = time.begin();
 
