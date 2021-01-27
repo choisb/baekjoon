@@ -19,7 +19,7 @@ int main()
 
     vector<pair<int, int>> time;
 
-    cin >> N;           
+    cin >> N;
     time.reserve(N);    // 사용할 벡터의 크기만큼 미리 메모리 할당.
 
     for (int i = 0; i < N; i++)
