@@ -1,58 +1,58 @@
-# BOJ ¹®Á¦Ç®ÀÌ ÄÚµå
-- ¹éÁØ ¿Â¶óÀÎ ÀúÁöÀÇ ¹®Á¦Ç®ÀÌ ÄÚµå ¸ğÀ½
+# BOJ ë¬¸ì œí’€ì´ ì½”ë“œ
+- ë°±ì¤€ ì˜¨ë¼ì¸ ì €ì§€ì˜ ë¬¸ì œí’€ì´ ì½”ë“œ ëª¨ìŒ
 ___
-## 1021¹ø È¸ÀüÇÏ´Â Å¥
->³­ÀÌµµ: ½Ç¹ö 4  
+## 1021ë²ˆ íšŒì „í•˜ëŠ” í
+>ë‚œì´ë„: ì‹¤ë²„ 4  
 
-##### Ç®ÀÌ
-`deque`»ç¿ë¹ıÀ» ÀÍÈú ¼ö ÀÖ´Â °£´ÜÇÑ ¹®Á¦
-- [¹®Á¦ ¹Ù·Î°¡±â](https://www.acmicpc.net/problem/1021)
-- [¼Ò½ºÄÚµå](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_1021.cpp)
+##### í’€ì´
+`deque`ì‚¬ìš©ë²•ì„ ìµí ìˆ˜ ìˆëŠ” ê°„ë‹¨í•œ ë¬¸ì œ
+- [ë¬¸ì œ ë°”ë¡œê°€ê¸°](https://www.acmicpc.net/problem/1021)
+- [ì†ŒìŠ¤ì½”ë“œ](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_1021.cpp)
 
-## 1931¹ø È¸ÀÇ½Ç ¹èÁ¤
->³­ÀÌµµ: ½Ç¹ö 2
+## 1931ë²ˆ íšŒì˜ì‹¤ ë°°ì •
+>ë‚œì´ë„: ì‹¤ë²„ 2
 
-##### Ç®ÀÌ
-È¸ÀÇ°¡ ³¡³ª´Â ½Ã°£À» ±âÁØÀ¸·Î Á¤·ÄÇÏ¿©¼­ °è»êÇÏ´Â °£´ÜÇÑ ±×¸®µğ ¹®Á¦.
-- [¹®Á¦ ¹Ù·Î°¡±â](https://www.acmicpc.net/problem/1931)
-- [¼Ò½ºÄÚµå](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_1931.cpp)
+##### í’€ì´
+íšŒì˜ê°€ ëë‚˜ëŠ” ì‹œê°„ì„ ê¸°ì¤€ìœ¼ë¡œ ì •ë ¬í•˜ì—¬ì„œ ê³„ì‚°í•˜ëŠ” ê°„ë‹¨í•œ ê·¸ë¦¬ë”” ë¬¸ì œ.
+- [ë¬¸ì œ ë°”ë¡œê°€ê¸°](https://www.acmicpc.net/problem/1931)
+- [ì†ŒìŠ¤ì½”ë“œ](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_1931.cpp)
 
-## 2839¹ø ¼³ÅÁ ¹è´Ş
->³­ÀÌµµ: ºê·ĞÁî 1
+## 2839ë²ˆ ì„¤íƒ• ë°°ë‹¬
+>ë‚œì´ë„: ë¸Œë¡ ì¦ˆ 1
 
-##### Ç®ÀÌ
-»ı·«
-- [¹®Á¦ ¹Ù·Î°¡±â](https://www.acmicpc.net/problem/2839)
-- [¼Ò½ºÄÚµå](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_2839.cpp)
+##### í’€ì´
+ìƒëµ
+- [ë¬¸ì œ ë°”ë¡œê°€ê¸°](https://www.acmicpc.net/problem/2839)
+- [ì†ŒìŠ¤ì½”ë“œ](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_2839.cpp)
  
-## 5052¹ø ÀüÈ­¹øÈ£ ¸ñ·Ï
-> ³­ÀÌµµ: ½Ç¹ö 3  
+## 5052ë²ˆ ì „í™”ë²ˆí˜¸ ëª©ë¡
+> ë‚œì´ë„: ì‹¤ë²„ 3  
 
-##### Ç®ÀÌ
-Æ®¶óÀÌ¸¦ ÀÌ¿ëÇÑ Ç®ÀÌ¿Í Á¤·Ä ÈÄ ÀÎÁ¢ÇÑ ¿ø¼Ò¸¦ È®ÀÎÇÏ´Â µÎ°¡Áö ¹æ¹ıÀÌ Á¸Àç.
-¿©±â¼­´Â Á¤·Ä ÈÄ ÀÎÁ¢ÇÑ ¿ø¼Ò¸¦ È®ÀÎÇÏ´Â ¹æ¹ıÀ¸·Î ÇØ°á.
+##### í’€ì´
+íŠ¸ë¼ì´ë¥¼ ì´ìš©í•œ í’€ì´ì™€ ì •ë ¬ í›„ ì¸ì ‘í•œ ì›ì†Œë¥¼ í™•ì¸í•˜ëŠ” ë‘ ê°€ì§€ ë°©ë²•ì´ ì¡´ì¬.
+ì—¬ê¸°ì„œëŠ” ì •ë ¬ í›„ ì¸ì ‘í•œ ì›ì†Œë¥¼ í™•ì¸í•˜ëŠ” ë°©ë²•ìœ¼ë¡œ í•´ê²°.
 
-- [¹®Á¦ ¹Ù·Î°¡±â](https://www.acmicpc.net/problem/5052)
-- [¼Ò½ºÄÚµå](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_5052.cpp)
+- [ë¬¸ì œ ë°”ë¡œê°€ê¸°](https://www.acmicpc.net/problem/5052)
+- [ì†ŒìŠ¤ì½”ë“œ](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_5052.cpp)
 
-## 5397¹ø Å° ·Î°Å
-> ³­ÀÌµµ: ½Ç¹ö 3  
+## 5397ë²ˆ í‚¤ ë¡œê±°
+> ë‚œì´ë„: ì‹¤ë²„ 3  
 
-##### Ç®ÀÌ
-`list` »ç¿ë¹ıÀ» ÀÍÈú ¼ö ÀÖ´Â °£´ÜÇÑ ¹®Á¦
-- [¹®Á¦ ¹Ù·Î°¡±â](https://www.acmicpc.net/problem/5397)
-- [¼Ò½ºÄÚµå](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_5397.cpp)
+##### í’€ì´
+`list` ì‚¬ìš©ë²•ì„ ìµí ìˆ˜ ìˆëŠ” ê°„ë‹¨í•œ ë¬¸ì œ
+- [ë¬¸ì œ ë°”ë¡œê°€ê¸°](https://www.acmicpc.net/problem/5397)
+- [ì†ŒìŠ¤ì½”ë“œ](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_5397.cpp)
 
-## 7785¹ø È¸»ç¿¡ ÀÖ´Â »ç¶÷
-> ³­ÀÌµµ: ½Ç¹ö 5  
-##### Ç®ÀÌ
-`set`À» ÀÍÈú ¼ö ÀÖ´Â °£´ÜÇÑ ¹®Á¦
-- [¹®Á¦ ¹Ù·Î°¡±â](https://www.acmicpc.net/problem/7785)
-- [¼Ò½ºÄÚµå](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_7785.cpp)
+## 7785ë²ˆ íšŒì‚¬ì— ìˆëŠ” ì‚¬ëŒ
+> ë‚œì´ë„: ì‹¤ë²„ 5  
+##### í’€ì´
+`set`ì„ ìµí ìˆ˜ ìˆëŠ” ê°„ë‹¨í•œ ë¬¸ì œ
+- [ë¬¸ì œ ë°”ë¡œê°€ê¸°](https://www.acmicpc.net/problem/7785)
+- [ì†ŒìŠ¤ì½”ë“œ](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_7785.cpp)
 
-## 10546¹ø ¹èºÎ¸¥ ¸¶¶óÅä³Ê
-> ³­ÀÌµµ: ½Ç¹ö 4  
-##### Ç®ÀÌ
-`set`À» ÀÍÈú ¼ö ÀÖ´Â °£´ÜÇÑ ¹®Á¦
-- [¹®Á¦ ¹Ù·Î°¡±â](https://www.acmicpc.net/problem/10546)
-- [¼Ò½ºÄÚµå](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_10546.cpp)
+## 10546ë²ˆ ë°°ë¶€ë¥¸ ë§ˆë¼í† ë„ˆ
+> ë‚œì´ë„: ì‹¤ë²„ 4  
+##### í’€ì´
+`set`ì„ ìµí ìˆ˜ ìˆëŠ” ê°„ë‹¨í•œ ë¬¸ì œ
+- [ë¬¸ì œ ë°”ë¡œê°€ê¸°](https://www.acmicpc.net/problem/10546)
+- [ì†ŒìŠ¤ì½”ë“œ](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_10546.cpp)
