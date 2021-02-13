@@ -25,6 +25,16 @@ ___
 - [문제 바로가기](https://www.acmicpc.net/problem/2839)
 - [소스코드](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_2839.cpp)
  
+## 5052번 전화번호 목록
+> 난이도: 실버 3  
+
+##### 풀이
+트라이를 이용한 풀이와 정렬 후 인접한 원소를 확인하는 두가지 방법이 존재.
+여기서는 정렬 후 인접한 원소를 확인하는 방법으로 해결.
+
+- [문제 바로가기](https://www.acmicpc.net/problem/5052)
+- [소스코드](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_5052.cpp)
+
 ## 5397번 키 로거
 > 난이도: 실버 3  
 
@@ -40,7 +50,7 @@ ___
 - [문제 바로가기](https://www.acmicpc.net/problem/7785)
 - [소스코드](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_7785.cpp)
 
-## 7785번 배부른 마라토너
+## 10546번 배부른 마라토너
 > 난이도: 실버 4  
 ##### 풀이
 `set`을 익힐 수 있는 간단한 문제
