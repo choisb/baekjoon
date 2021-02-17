@@ -36,12 +36,6 @@ bool solve()
 	// 입력받은 전화번호들을 정렬함.
 	sort(numbers.begin(), numbers.end());
 
-	//cout << endl <<"**정렬결과 확인**" << endl;
-	//for (auto num : numbers)
-	//{
-	//	cout << num << endl;
-	//}
-
 	// 인접한 전화번호를 비교하여서 유효성 검사. 
 	// ckeck 조건자는 전화번호가 유효할 경우 false, 유효하지 않을 경우 true 반환
 	auto iter = adjacent_find(numbers.begin(), numbers.end(), check);
