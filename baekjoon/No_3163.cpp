@@ -1,11 +1,18 @@
 #include <iostream>
 #include <string>
-#include <set>
 #include <vector>
-#include <map>
 #include <algorithm>
 #define endl '\n'
+#define COST first
+#define ID	 second	
+
 using namespace std;
+bool compare(const pair<int, int>& _left, const pair<int, int> _right)
+{
+	if (_left.COST == _right.COST)
+		return abs(_left.ID) < abs(_right.ID);
+	return _left.COST < _right.COST;
+}
 int solve()
 {
 	// N: 개미의 수 (3 ≤ N ≤ 100,000)
@@ -20,50 +27,77 @@ int solve()
 	// 개미가 떨어지기 까지 필요한 시간
 	int cost;
 
-	multimap<int, int> ants;
-	vector<int> antsID;
-
 	cin >> N >> L >> K;
-
-	while (N--)
+	vector<int> l_cost;
+	vector<int> r_cost;
+	vector<pair<int, int>> ants(N);
+	for(int i = 0; i< N; i++)
 	{
 		cin >> p >> a;
-		if (a < 0)
+		if (a < 0) {
 			cost = p;
-		else
+			l_cost.push_back(cost);
+		}
+		else {
 			cost = L - p;
-
-		ants.insert({ cost, a });
-		antsID.push_back(a);
+			r_cost.push_back(cost);
+		}
+		ants[i].ID = a;
 	}
-	cout << "ants: ";
-	for (auto a : ants)
+	//cout << "cost:";
+	//for (auto c : l_cost)
+	//{
+	//	cout <<" "<< c;
+	//}
+	//cout << "|";
+	//for (auto c : r_cost)
+	//{
+	//	cout << c << " ";
+	//}
+	//cout << endl;
+	for (int i = 0; i < l_cost.size(); i++)
 	{
-		cout << "(" << a.first << "," << a.second << ") ";
+		ants[i].COST = l_cost[i];
 	}
-	cout << endl;
 
-	cout << "antsID: ";
-	for (auto a : antsID)
+	for (int i = 0; i < r_cost.size(); i++)
 	{
-		cout << "(" << a << ") ";
+		ants[i + l_cost.size()].COST = r_cost[i];
 	}
-	cout << endl;
+	//for (auto a : antsID)
+	//{
+	//	cout << "(" << a.first << "," << a.second << ") ";
+	//}
+	//cout << endl;
 
-	return 0;
+	sort(ants.begin(), ants.end(), compare);
+
+	//for (auto a : antsID)
+	//{
+	//	cout << "(" << a.first << "," << a.second << ") ";
+	//}
+	//cout << endl;
+
+	return ants.at(K-1).ID;
+	
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cout.tie(NULL);
 	cin.tie(NULL);
+	vector<int> ans;
 	int T;
 
 	cin >> T;
 
 	while (T--)
 	{
-		cout << solve();
+		ans.push_back(solve());
 	}
+	cout << "****정답*****" << endl;
+	for (auto a : ans)
+		cout << a << endl;
+
 	return 0;
 }
