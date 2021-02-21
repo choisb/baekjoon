@@ -40,6 +40,19 @@ ___
 - [문제 바로가기](https://www.acmicpc.net/problem/2839)
 - [소스코드](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_2839.cpp)
  
+## 3163번 떨어지는 개미
+>난이도: 플래티넘 5
+
+#### 풀이
+- 개미가 떨어질 때는 항상 가장 오른쪽에 있는 개미 혹은 가장 왼쪽에 있는 개미만 떨어진다.
+
+- 개미의 ID를 무시하고 보자. 그렇다면 개미가 충돌하지 않고 지나갔을 때랑 충돌 했을 때랑 결과가 동일할 것이다.
+
+- 결론. 오른쪽이든 왼쪽이든 개미가 떨어지데 소요되는 시간(cost)를 계산한 후 개미의 ID와 매칭한다.
+
+- [문제 바로가기](https://www.acmicpc.net/problem/3163)
+- [소스코드](https://github.com/choisb/baekjoon/tree/master/baekjoon/No_3163.cpp)
+ 
 ## 5052번 전화번호 목록
 > 난이도: 실버 3  
 

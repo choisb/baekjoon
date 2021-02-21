@@ -10,7 +10,7 @@ using namespace std;
 bool compare(const pair<int, int>& _left, const pair<int, int> _right)
 {
 	if (_left.COST == _right.COST)
-		return abs(_left.ID) < abs(_right.ID);
+		return _left.ID < _right.ID;
 	return _left.COST < _right.COST;
 }
 int solve()
@@ -64,7 +64,7 @@ int solve()
 	{
 		ants[i + l_cost.size()].COST = r_cost[i];
 	}
-	//for (auto a : antsID)
+	//for (auto a : ants)
 	//{
 	//	cout << "(" << a.first << "," << a.second << ") ";
 	//}
@@ -72,7 +72,7 @@ int solve()
 
 	sort(ants.begin(), ants.end(), compare);
 
-	//for (auto a : antsID)
+	//for (auto a : ants)
 	//{
 	//	cout << "(" << a.first << "," << a.second << ") ";
 	//}
@@ -93,11 +93,8 @@ int main() {
 
 	while (T--)
 	{
-		ans.push_back(solve());
+		cout << solve() << endl;
 	}
-	cout << "****Á¤´ä*****" << endl;
-	for (auto a : ans)
-		cout << a << endl;
 
 	return 0;
 }
