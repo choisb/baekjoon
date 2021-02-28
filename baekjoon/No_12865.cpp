@@ -17,21 +17,26 @@ int v[101];
 
 int Knapsack(int _index, int _weight)
 {
+	// 저장된 값이 있다면 저장된 값 반환
 	if (dp[_index][_weight] != -1)
 		return dp[_index][_weight];
 
 	int left = 0, right = 0;
 
+	// index가 0인 경우는 항상 0
 	if (_index == 0) {
-		dp[_index][_weight] = -1;
+		dp[_index][_weight] = 0;
 		return 0;
 	}
 
+	// left
 	left = Knapsack(_index - 1, _weight);
 
+	// right는 _weight >= w[_index] 일때만 호출
 	if (_weight >= w[_index])
 		right = Knapsack(_index - 1, _weight - w[_index]) + v[_index];
 
+	// left, right 비교 후 큰 값을 dp에 저장
 	dp[_index][_weight] = max( left, right);
 
 	return dp[_index][_weight];
@@ -68,18 +73,18 @@ int main()
 
 	end = clock();
 
-	//for (int i = 1; i <= N; i++) {
-	//	for (int j = 1; j <= K; j++)
-	//	{
-	//		if (dp[i][j] == -1)
-	//			cout << setw(3) << '-' << " ";
-	//		else
-	//			cout << setw(3) << dp[i][j] << " ";
-	//	}
-	//	cout << endl;
-	//}
+	for (int i = 0; i <= N; i++) {
+		for (int j = 0; j <= K; j++)
+		{
+			if (dp[i][j] == -1)
+				cout << setw(3) << '-' << " ";
+			else
+				cout << setw(3) << dp[i][j] << " ";
+		}
+		cout << endl;
+	}
 
 
-	cout <<"시간: "<<end - start << endl;
+	cout << "시간: " << end - start << endl;
 	return 0;
 }
