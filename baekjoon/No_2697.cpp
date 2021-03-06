@@ -1,3 +1,4 @@
+// string에 next_permutation()을 적용하면 쉽게 풀 수 있는 문제
 #include <iostream>
 #include <string>
 #include <vector>
@@ -13,6 +14,7 @@ int main() {
 	vector<string> numbers;
 	string number;
 
+	// test case 수
 	int N;
 
 	cin >> N;
