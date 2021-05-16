@@ -12,7 +12,7 @@ using namespace std;
 struct Node {
     Node(int num)       // 모든 노드는 할당된 숫자가 있어야한다.
         :mNum(num)
-        ,mVisited(false)   // 방문 정보를 false로 초기화
+        , mVisited(false)   // 방문 정보를 false로 초기화
     {}
 
     vector<Node*> mAdjacent;    // 인접 노드에 대한 정보
@@ -100,9 +100,9 @@ int main() {
     cout << endl;
 
     // 방문 기록을 모두 초기화
-    for (auto node : nodes) 
+    for (auto node : nodes)
         node.second->mVisited = false;
-   
+
     // BFS에 시작 노드를 전달
     BFS(nodes[V]);
 
